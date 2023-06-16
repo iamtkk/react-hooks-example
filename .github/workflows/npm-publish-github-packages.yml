@@ -19,3 +19,5 @@ jobs:
           node-version: 16
       - run: echo "test"
       - run: uname -a
+      - run: pwd
+      - run: ls -la
